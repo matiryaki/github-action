@@ -2,7 +2,7 @@ name: Spring Boot Project CI/CD Pipeline
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-java-app:
     name: Build and Deploy Spring Boot App
