@@ -16,6 +16,7 @@ jobs:
         with:
           distribution: 'corretto'
           java-version: 17
+          cache: 'maven'
 
       - name: Build App
         run: |
